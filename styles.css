@@ -1,0 +1,90 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(214, 217, 233);
+}
+a {
+  text-decoration: none;
+}
+.sidebar {
+  /* background-color: #1e2939; */
+  background-color: #27354b;
+}
+.sidebar__wrap {
+  padding: 15px;
+}
+.sidebar h3 {
+  color: white;
+}
+.sidebar__skills li {
+  color: #ffffff;
+  opacity: 0.7;
+}
+.sidebar__img {
+  width: 100%;
+}
+.contacts a {
+  display: flex;
+  color: #ffffff;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: #fb6d3a;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+}
+.phone-icon,
+.mail-icon {
+  fill: #ffffff;
+  margin-right: 10px;
+
+}
+.content {
+  padding-left: 15px;
+}
+
+.technology-icon {
+  transition-duration: 400ms;
+}
+.technology-icon:not(:last-child) {
+   margin-right: 10px;
+  }
+.technology-icon:hover {
+  transform: scale(1.6);
+}
+.btn {
+    display: flex;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 400ms;
+    margin-top: 5px;
+ 
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+/* 
+
+
+top: 8px;
+right: 8px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+background: none;
+cursor: pointer;
+width: 30px;
+height: 30px;
+justify-content: center;
+align-items: center;
+&:hover,
+&:focus {
+  fill: var(--hover-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+} */
