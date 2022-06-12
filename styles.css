@@ -16,6 +16,9 @@ a {
 .sidebar h3 {
   color: white;
 }
+.sidebar__tech-skills h3{
+  margin-top: 35px;
+}
 .sidebar__skills li {
   color: #ffffff;
   opacity: 0.7;
@@ -40,6 +43,9 @@ a {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
+  justify-content: flex-end;
+  /* padding-left: 20px; */
+
 }
 .phone-icon,
 .mail-icon,
@@ -79,7 +85,7 @@ a {
 }
 .about__title {
   font-size: 18px;
-  margin-top: 30px;
+
 }
 .about__name {
   font-size: 34px;
@@ -92,7 +98,7 @@ a {
   font-weight: 700;
 }
 .education__list-title {
-color: #FB6D3A;
+color: #1e2939;
 }
 .projects a {
   color: rgb(13, 27, 219);
