@@ -1,5 +1,6 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;  
+  /* background-color: rgb(235, 236, 241); */
   background-color: rgb(214, 217, 233);
 }
 a {
@@ -20,15 +21,20 @@ a {
   opacity: 0.7;
 }
 .sidebar__img {
-  width: 100%;
+ width: 100%; 
 }
 .contacts a {
   display: flex;
+  align-items: center;
   color: #ffffff;
+
+}
+.contacts a:not(:last-child) {
+  margin-bottom: 10px;
 }
 .contacts a:hover,
 .contacts a:focus {
-  color: #fb6d3a;
+  color: #FB6D3A;
 }
 .main {
   display: flex;
@@ -36,7 +42,8 @@ a {
   width: 1200px;
 }
 .phone-icon,
-.mail-icon {
+.mail-icon,
+.linkedin-icon {
   fill: #ffffff;
   margin-right: 10px;
 
@@ -57,34 +64,39 @@ a {
 .btn {
     display: flex;
     color: white;
-    background-color: transparent;
-    border: 2px solid rgb(0, 0, 0);
+    background-color:#FB6D3A;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
     transition-duration: 400ms;
     margin-top: 5px;
+    width: 120px;
+   justify-content: center;
  
 }
 .btn:hover {
     transform: scale(1.1);
 }
-/* 
-
-
-top: 8px;
-right: 8px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 50%;
-background: none;
-cursor: pointer;
-width: 30px;
-height: 30px;
-justify-content: center;
-align-items: center;
-&:hover,
-&:focus {
-  fill: var(--hover-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.about__title {
+  font-size: 18px;
+  margin-top: 30px;
 }
-} */
+.about__name {
+  font-size: 34px;
+}
+.about li {
+  font-weight: 700;
+}
+.education__list p{
+  margin-left: 10px;
+  font-weight: 700;
+}
+.education__list-title {
+color: #FB6D3A;
+}
+.projects a {
+  color: rgb(13, 27, 219);
+}
+.projects a:hover{
+color: #FB6D3A;
+}
